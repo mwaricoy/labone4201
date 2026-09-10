@@ -8,10 +8,9 @@ cd labone4201
 
 ls
 
-#Next you need to open the enviroment in R. Open this file: labone4201.Rproj
+#Next you need to open the enviroment in R by setting a working directory. Type this code into the console:
 
-#In R, type this code into the console:
-
+setwd("~/Desktop/labone4201")
 renv::restore()
 
 #After this, you can now run the scrip with this command in the console
